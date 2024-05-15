@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoginEjemplo" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- <style name="Base.Theme.LoginEjemplo" parent="android:Theme.Holo.Light.DarkActionBar"> -->
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <!-- <item name="android:actionBarStyle">@style/myActionBar</item> -->
+    </style>
+
+    <style name="Theme.LoginEjemplo" parent="Base.Theme.LoginEjemplo" />
+
+    <style name="myActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/my_light_primary</item>
+        <item name="android:titleTextColor">@style/MyTitleTextStyle</item>
+    </style>
+    <style name="MyTitleTextStyle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
